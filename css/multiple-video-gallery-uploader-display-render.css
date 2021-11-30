@@ -1,0 +1,7 @@
+#mvgud-render {}
+#mvgud-render .mvgud-title {}
+#mvgud-render .mvgud-span {}
+#mvgud-render .mvgud-span iframe {
+  width: 575px;
+  height: 300px;
+}

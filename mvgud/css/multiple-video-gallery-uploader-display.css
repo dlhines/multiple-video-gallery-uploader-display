@@ -1,0 +1,112 @@
+/* Clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#video-uploader-display #gallery_load {
+  background-color: #EEE;
+  border: 1px solid #999;
+  border-radius: 3px;
+  display: block;
+  height: 200px;
+  padding: 10px;
+  margin: 5px 0 16px 0;
+}
+
+#video-uploader-display #gallery_load .video-input {
+  margin-bottom: 10px;
+  padding: 5px;
+  min-width: 45%;
+}
+
+/* Instructions */
+#video-uploader-display #mvgud_instructions {
+  background-color: #e2e2e2;
+  margin-bottom: 0;
+  border-radius: 3px;
+}
+#video-uploader-display #mvgud_instructions p.header {
+  background-color: #666;
+  border-radius: 3px;
+  color: #EEE;
+  font-size: 1.1rem;
+  padding: 5px;
+  margin-bottom: 0;
+}
+#video-uploader-display #mvgud_instructions p.header:hover {
+  cursor: pointer;
+}
+#video-uploader-display #mvgud_instructions section {
+  display: none;
+  padding: 10px;
+}
+
+#video-uploader-display #mvgud_instructions section .no-save {
+  font-size: 1.1rem;
+  color: #000;
+  background: #EEE;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px #999;
+  margin: 7px;
+  padding: 5px;
+}
+#video-uploader-display #mvgud_instructions section .controls {
+  float: left;
+  min-height: 200px;
+  padding: 5px;
+  width: 23.6%;
+}
+#video-uploader-display #mvgud_instructions section .controls:nth-child(even) {
+  margin: 0 .5%;
+}
+#video-uploader-display #mvgud_instructions section .controls h4 {
+  border-bottom: 1px solid #999;
+  margin: 0 0 10px 0;
+  font-size: .8rem;
+}
+
+#video-uploader-display #mvgud_instructions section .caveats {
+  background: #EEE;
+}
+#video-uploader-display #mvgud_instructions section .caveats h4 {
+  border-bottom: 0;
+  border-radius: 3px;
+  background: #F76F6F;
+  color: #FFF;
+  font-weight: bold;
+  padding: 3px;
+}
+
+#video-uploader-display #mvgud_instructions section .caveats div {
+  border: 1px solid #EEE;
+  border-radius: 3px;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+#video-uploader-display #mvgud_instructions section .caveats div ul {
+  list-style-type: disc !important;
+  font-size: .7rem;
+}
+#video-uploader-display #mvgud_instructions section #iud-display h3 {
+  border-bottom: 1px solid #999;
+}
+#video-uploader-display #mvgud_instructions section #iud-display table {
+  width: 100%;
+}
+#video-uploader-display #mvgud_instructions section #iud-display table td {
+  border: 1px solid #000;
+}
+#video-uploader-display #mvgud_instructions section #iud-display table tr td:first-child {
+  background-color: grey;
+  color: #FFF;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  width: 15%;
+}
+#video-uploader-display #mvgud_instructions section #iud-display table tr td:nth-child(2) {
+  padding-left: 20px;
+}
